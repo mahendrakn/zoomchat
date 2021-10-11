@@ -1,0 +1,56 @@
+From,To,MessageType,MessageTime,Text
+Arjun Rao,Me,Direct Message,09:30 AM," in sql in sql-inner join,outer join,left join,right join"
+yashwanth,Me,Direct Message,09:31 AM," types of joins in sql left join,right join ,full join,inner join,cross join"
+Arjun Rao,Me,Direct Message,09:31 AM," in pandas-outer join,inner ,left,right,full joins"
+raghav,Me,Direct Message,09:31 AM," joins in sql=inner,left,right,full , pandas=we use merge inner,outer,left,right"
+yashwanth,Me,Direct Message,09:32 AM," types of  joinin panadas left join right join, inner join ,full outer join "
+Rajeetha L P,Me,Direct Message,09:32 AM," Types of joins  SQL : Innerjoin,full join,right join,leftjoin  Python pandas:Innerjoin,left  join,right join,full  outer join ,index join"
+prasanna,Me,Direct Message,09:32 AM, types of joins in sql: 1.inner join  2.full outer join 3.left join 4.right join  types of joins in pandas: 1.inner join  2.full outer join 3.left join 4.right join 5.cross join
+raghav,Me,Direct Message,09:34 AM, for connecting to aws from python boto3 library is used
+prasanna,Me,Direct Message,09:34 AM, what is boto3 library it is a driver which connects python to s3
+Arjun Rao,Me,Direct Message,09:34 AM, boto 3 is a library used connect s3 to python where storing and retriving file can be done
+yashwanth,Me,Direct Message,09:34 AM, the library which we have to import for  accessing s3 buckets 
+Harshavardhan S,Me,Direct Message,09:35 AM," 1.sql- inner join ,left outer,rightouter, full outer join. pandas-inner join,full join,left join right join 2 boto3 libiary it is aws software development it name of ptrhon and ccreate,update and delete aws resoures"
+yashwanth,Me,Direct Message,09:46 AM," df = pd.DataFrame({'student':['sachin','chetan','leela','nishant','sharanya','parvathi'],'marks':[50,80,90,70,60,75}) df.loc[df['marks'] >,90 'frade'] = 'c'"
+prasanna,Me,Direct Message,09:46 AM," dict1={'student' :['Sachin', 'chethan','leela', 'nishanth', 'sharanya', 'parvathi'], 'marks':[50,80,90,70,60,75]} df1=pd.DataFrame(dict1) for x in df1.index:     if df1.loc[x,'marks']>=90:         df1.loc[x,'grade'] = 'a'          elif 80<=df1.loc[x,'marks']<90:         df1.loc[x,'grade'] = 'b'     else:          df1.loc[x,'grade'] = 'c'"
+yashwanth,Me,Direct Message,09:48 AM," df.loc[df['marks']>90,'grade']='c' df.loc[df['marks']80 and df['marks']<90,grade]='b'"
+raghav,Me,Direct Message,09:48 AM," converting csv into DataFrame student_marks=pd.DataFrame({'students':['sachin','chethan','leela','nishanth','sharanya','parvathi'],'marks':[50,80,90,70,60,75]"
+Arjun Rao,Me,Direct Message,09:48 AM," import pandas as pd data=read_csv('file_name.csv') df=pd.DataFrame(data) df1= pd.DataFrame( {'grade':['c','b','a','b','c','b']}) df['grades']=df1"
+yashwanth,Me,Direct Message,09:50 AM, df.filter[df['marks]>80]
+prasanna,Me,Direct Message,09:51 AM, df1[df1['marks']>80]
+Arjun Rao,Me,Direct Message,09:51 AM, df[(df.marks>80)]
+prasanna,Me,Direct Message,09:52 AM, filter the students who are all have morethan 80 marks df1[df1['marks']>80]
+Harshavardhan S,Me,Direct Message,09:54 AM, 4.df[df.marks>80]
+Harshavardhan S,Me,Direct Message,09:59 AM, 5.def split(word):     return [char for char in word ] word='hello world' print(split(word))
+Arjun Rao,Me,Direct Message,10:01 AM," str_given='hello world' str_output=str_given.count('l') print('for entered character:', str_output)"
+prasanna,Me,Direct Message,10:02 AM," write a program to count the character count   a= list('hello world')  for i in a:     count=0     for j in a:         if i==j:             count=count+1     print(i,count)     a.remove(i)"
+Arjun Rao,Me,Direct Message,10:03 AM, df1=df[df.duplicated()]
+prasanna,Me,Direct Message,10:03 AM, how to remove duplicates in pandas
+Rajeetha L P,Me,Direct Message,10:03 AM, how to remove duplicate in pandas df.drop_duplicates( )
+prasanna,Me,Direct Message,10:04 AM, how to remove duplicates in pandas df.drop_duplicates(inplace=True)
+Arjun Rao,Me,Direct Message,10:04 AM, how to remove duplicate data in pandas?:df1=df[df.duplicated()]
+raghav,Me,Direct Message,10:04 AM, removing duplicates in pandas : datat.drop_duplicates
+Arjun Rao,Me,Direct Message,10:05 AM," datastructres are:list,set,tuple,dictionary"
+Rajeetha L P,Me,Direct Message,10:05 AM," 3.List out data structures in python  Ans: Lists, tuple Dict"
+raghav,Me,Direct Message,10:05 AM," data structures in python :list,set,tuples"
+Rajeetha L P,Me,Direct Message,10:06 AM," 3.List out data structures in python  Ans: Lists, tuple , Dictionary"
+Harshavardhan S,Me,Direct Message,10:06 AM," 8.list,tuple,set,doctionary"
+yashwanth,Me,Direct Message,10:06 AM," data strucures in python  list,set ,tuple,dictionary,pandas"
+prasanna,Me,Direct Message,10:06 AM," data structures in python arrays, queues, staks, linked lists"
+yashwanth,Me,Direct Message,10:06 AM," stes are unordered,duplicates are not allowed,"
+Rajeetha L P,Me,Direct Message,10:07 AM, 4.Sets in python  Ans: sets store multiple values in single variable
+raghav,Me,Direct Message,10:07 AM, sets in python: sets doesn't display duplicate values and it will display output in random manner not as input given
+prasanna,Me,Direct Message,10:07 AM, tell me about sets in python sets in python donot have duplicates and also indexing sets is not possible in python
+Arjun Rao,Me,Direct Message,10:07 AM," tell me about sets: sets are mutable,where values can be alteredand it does not allow duplicate values it works on hashing method"
+yashwanth,Me,Direct Message,10:07 AM, string is immutable
+prasanna,Me,Direct Message,10:07 AM, string is immutable
+Harshavardhan S,Me,Direct Message,10:07 AM," 9.finite ,infiniteset"
+Arjun Rao,Me,Direct Message,10:07 AM, immutable
+Harshavardhan S,Me,Direct Message,10:08 AM, 10.immutable
+Rajeetha L P,Me,Direct Message,10:08 AM, 5.String is Immutable.
+raghav,Me,Direct Message,10:08 AM, is string is mutable : yes
+yashwanth,Me,Direct Message,10:09 AM, no we  cant replace the character in a string
+Arjun Rao,Me,Direct Message,10:09 AM," yes,str.replace()"
+Rajeetha L P,Me,Direct Message,10:10 AM, 6. Is it possible to replace a character in a string   Ans: yes  code: str.replace( )
+prasanna,Me,Direct Message,10:10 AM, can we replace character in a string yes we can but not directly but only after conerting it yo list a=list('cat') a[0]='B'
+Harshavardhan S,Me,Direct Message,10:11 AM, 11.x='cat' new_string=x.replace('c'.'at')
